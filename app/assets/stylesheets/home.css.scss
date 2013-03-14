@@ -1,0 +1,58 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	height:100%;
+	background-color:#9C9C9C;	
+}
+
+html {
+	height:100%;
+}
+
+#text {
+font-family:Avenir, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+color: white;
+font-size:28px;
+font-weight:100;
+padding-top:70px;
+padding-bottom:60px;
+padding-right:10%;
+padding-left:10%;
+width:80%;
+}
+
+b {
+font-family:Avenir, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+color: white;
+font-weight:600;
+}
+
+a {
+font-family:Avenir, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+color: white;
+font-weight:600;
+}
+
+#textWrapper { 
+	background-color:#9C9C9C;
+}
+
+#imageWrapper {
+	background-color:orange;
+	display: block; margin-left: auto; margin-right: auto
+
+}
+
+img {
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
