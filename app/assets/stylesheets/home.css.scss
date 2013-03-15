@@ -9,10 +9,12 @@ body {
     background-image:url('bg.jpg'); 
 	background-size: cover;
 	background-repeat:no-repeat;
+	overflow: hidden;
 }
 
 html {
 	height:100%;
+  	overflow: hidden;
 }
 
 #text {
@@ -59,6 +61,4 @@ img {
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-
 }
