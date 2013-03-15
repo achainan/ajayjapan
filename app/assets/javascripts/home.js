@@ -9,4 +9,9 @@ function resize()
 	
 	iphone.style.top = Math.max(body.offsetHeight - iphone.offsetHeight, document.getElementById("textWrapper").offsetHeight) + "px";
 	iphone.style.left = (body.offsetWidth - iphone.offsetWidth)/2 + "px";
+	
+	var imageSize = Math.max(body.offsetWidth, body.offsetHeight);
+	
+	body.style.backgroundSize = imageSize + "px " + imageSize + "px";
+	
 }
