@@ -1,7 +1,11 @@
 Ajayjapan::Application.routes.draw do
 
+  get "apps/index"
+
   resources :home
   root :to => 'home#index'
+
+  resources :apps
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
